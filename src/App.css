@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+.semiCircle {
+  background: radial-gradient(circle, #7775d6, #3e76fe);
+  width: 620px;
+  height: 310px;
+  border-top-left-radius: 310px;
+  border-top-right-radius: 310px;
+}
+
+.stroke {
+  width: 1px;
+  height: 60px;
+}
+
+.communityCircle {
+  background: radial-gradient(circle, #7775d6, #3e76fe);
+  width: 360px;
+  height: 180px;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+}
+
+@media (max-width: 768px) {
+  .semiCircle {
+    width: 220px;
+    height: 110px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+  }
+
+  .communityCircle {
+    width: 200px;
+    height: 110px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+  }
+}
